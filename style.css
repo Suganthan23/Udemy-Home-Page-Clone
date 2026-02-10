@@ -8,7 +8,6 @@ body {
     font-family: "Gabarito", sans-serif;
 }
 
-/* ------------------- NAVBAR ------------------- */
 .navbar {
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +28,6 @@ body {
     vertical-align: middle;
 }
 
-/* Mobile view: center logo */
 @media screen and (max-width: 800px) {
     .navbar__s1 {
         width: 100%;
@@ -72,9 +70,7 @@ body {
 .navbar__s3 i {
     cursor: pointer;
     font-family: "Font Awesome 6 Free";
-    /* Ensure correct icon font */
     font-weight: 900;
-    /* Required for fa-solid icons */
 }
 
 .mylearning {
@@ -97,8 +93,6 @@ body {
     display: block;
 }
 
-
-/* ------------------- CATEGORIES ------------------- */
 .categories {
     display: flex;
     flex-wrap: wrap;
@@ -129,9 +123,6 @@ body {
     background-color: transparent;
 }
 
-/* ------------------- SALE IMAGE ------------------- */
-
-/* ------------------- RECOMMENDED COURSES ------------------- */
 .recommended__container {
     padding: 20px;
     max-width: 1200px;
@@ -203,7 +194,6 @@ body {
     /* ⬅ Push rating to bottom */
 }
 
-/* ------------------- TOPICS ------------------- */
 .topics {
     padding: 10px;
 }
@@ -223,7 +213,6 @@ body {
     flex-basis: 25%;
 }
 
-/* ------------------- POPULAR COURSES ------------------- */
 .popular {
     padding: 10px;
 }
@@ -267,12 +256,10 @@ body {
     color: #333;
 }
 
-/* Reuse unified .rating style */
 .popular-card .rating {
     margin-top: auto;
 }
 
-/* ------------------- RESPONSIVE ------------------- */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
